@@ -1,13 +1,5 @@
 # VS Code Settings
 These are some minor tweaks, I use on a day to day basis. These tweaks are mostly used for my WebDev purpose. Feel free to add more tweaks :) <3
-
-## Themes/Color
-
-* Current theme:
-  * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
-  * Matching parenthesis and curly brackets to with colors
   
 ## IntelliSense/AutoComplete
 
