@@ -1,12 +1,46 @@
+# VS Code Settings
 These are some minor tweaks, I use on a day to day basis. These tweaks are mostly used for my WebDev purpose. Feel free to add more tweaks :) <3
 
+## Themes/Color
+
+* Current theme:
+  * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
+  * Matching parenthesis and curly brackets to with colors
+  
+## IntelliSense/AutoComplete
+
+* [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+  * Provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+  * Autocompletes npm modules in import/require statements
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+  * Autocompletes filenames
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+  * Vue tooling
+
+## Style/Formatting
+
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  * Integrates ESLint JS
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
+  * Automatically format javascript, JSON, CSS, Sass, and HTML files.
+
+## Useful/Extra
+
+* [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+  * Display inline the size of the required/imported package
+* [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+  * Evaluate code/logs inline and show results in the editor
+* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Collaborative editing, debugging, and more inside VS Code
 
 # Settings
 
 ```json
 {
   /* Editor config */
-  // Editor config
   "editor.lineNumbers": "on",
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
