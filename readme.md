@@ -6,6 +6,7 @@ These are some minor tweaks, I use on a day to day basis. These tweaks are mostl
 ```json
 {
   /* Editor config */
+  // Editor config
   "editor.lineNumbers": "on",
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -46,10 +47,6 @@ These are some minor tweaks, I use on a day to day basis. These tweaks are mostl
     "textMateRules": [
       {
         "scope": ["comment", "comment.block"],
-        "settings": {
-          "fontStyle": "italic"
-          //   "foreground": "#ff1493"
-        }
       },
       {
         "scope": [
